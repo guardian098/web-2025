@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="utf-8" />   
+        <meta charset="utf-8" />  
+        <link href="login.css" rel="stylesheet" >
         <title> login </title> 
     </head>
     <body>
-        <h1> Войти </h1>
+        <h1 class="header"> Войти </h1>
         <div>
             <img src="image/login_img.jfif" alt="Фото профиля" />
         </div>
         <div>
-            <div>
-                <div>
-                    <p> Электропочта </p>
-                    <input type="text" name="email" placeholder="Введите email">
-                    <p> Введите электропочту в формате *****@***.** </p>
+            <div class="form">
+                <div class="email_form">
+                    <p class="text_form"> Электропочта </p>
+                    <input type="text" name="email" class="input_email">
+                    <p class="small_text"> Введите электропочту в формате *****@***.** </p>
                 </div>
-                <div>
-                    <p> Пароль </p>
-                    <input type="password" name="password" placeholder="Введите пароль">
+                <div class="password_form">
+                    <p class="text_form"> Пароль </p>
+                    <input type="password" name="password" class="input_password">
                 </div>
             </div>
-            <div>
-                <button> Продолжить </button>
+            <div class="button">
+                <p> Продолжить </p>
             </div>
         </div>
     </body>
